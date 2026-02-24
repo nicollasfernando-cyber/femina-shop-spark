@@ -9,7 +9,7 @@ const FooterSection = () => {
             </span>
           </div>
           <div className="flex flex-wrap gap-6 text-sm">
-            {["Termos de Uso", "Política de Privacidade", "Contato", "Envio", "Reembolso"].map(
+            {["Terms of Service", "Privacy Policy", "Contact Us", "Shipping", "Refund Policy"].map(
               (link) => (
                 <a
                   key={link}
@@ -24,7 +24,7 @@ const FooterSection = () => {
         </div>
         <div className="mt-8 pt-6 border-t border-muted/20 text-center">
           <p className="text-sm text-muted">
-            Copyright 2025 by FemVital Health. Todos os direitos reservados.
+            Copyright 2025 by FemVital Health. All rights reserved.
           </p>
         </div>
       </div>

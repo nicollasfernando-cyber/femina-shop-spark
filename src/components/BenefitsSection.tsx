@@ -3,23 +3,23 @@ import { Sparkles, Heart, Leaf, Brain } from "lucide-react";
 const benefits = [
   {
     icon: Sparkles,
-    title: "Energia Radiante",
-    description: "Alimente seu corpo com energia sustentável para brilhar o dia inteiro.",
+    title: "Radiant Energy",
+    description: "Fuel your body with sustained energy to glow all day long.",
   },
   {
     icon: Heart,
-    title: "Equilíbrio Hormonal",
-    description: "Suporte natural para seu ciclo e bem-estar hormonal completo.",
+    title: "Hormonal Balance",
+    description: "Natural support for your cycle and complete hormonal well-being.",
   },
   {
     icon: Leaf,
-    title: "Ingredientes Premium",
-    description: "Formulados com ingredientes naturais clinicamente estudados e de alta pureza.",
+    title: "Premium Ingredients",
+    description: "Formulated with clinically studied, high-purity natural ingredients.",
   },
   {
     icon: Brain,
-    title: "Clareza Mental",
-    description: "Melhore o foco, reduza o estresse e alcance a paz interior.",
+    title: "Mental Clarity",
+    description: "Sharpen your focus, reduce stress, and find your inner calm.",
   },
 ];
 

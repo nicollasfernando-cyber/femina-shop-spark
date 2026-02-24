@@ -3,7 +3,7 @@ import { Star } from "lucide-react";
 const AnnouncementBar = () => {
   return (
     <div className="bg-gradient-hero py-2.5 text-primary-foreground text-center text-sm font-medium tracking-widest uppercase">
-      ✨ Promoção de Verão — Até 40% de Desconto ✨
+      ✨ Summer Sale — Save Up To 40% Off ✨
     </div>
   );
 };
@@ -21,13 +21,13 @@ const Navbar = () => {
           </span>
         </a>
         <div className="hidden md:flex items-center gap-8">
-          {["Início", "Produtos", "Sobre", "Depoimentos"].map((item) => (
+          {[{ label: "Home", href: "home" }, { label: "Products", href: "products" }, { label: "About", href: "about" }, { label: "Testimonials", href: "testimonials" }].map((item) => (
             <a
-              key={item}
-              href={`#${item.toLowerCase()}`}
+              key={item.label}
+              href={`#${item.href}`}
               className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors tracking-wide"
             >
-              {item}
+              {item.label}
             </a>
           ))}
         </div>
