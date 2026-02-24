@@ -6,46 +6,45 @@ import productDrops from "@/assets/product-drops.jpg";
 
 const products = [
   {
-    name: "FemVital Cápsulas",
-    description: "Fórmula poderosa para equilíbrio hormonal e energia sustentável ao longo do dia.",
+    name: "FemVital Capsules",
+    description: "A powerful blend to support healthy hormone levels and sustained energy throughout the day.",
     image: productCapsules,
-    price: "R$ 149,90",
-    oldPrice: "R$ 249,90",
+    price: "$39.99",
+    oldPrice: "$69.99",
   },
   {
-    name: "FemVital Colágeno Powder",
-    description: "Colágeno hidrolisado premium para pele radiante, cabelos fortes e unhas saudáveis.",
+    name: "FemVital Collagen Powder",
+    description: "Premium hydrolyzed collagen for radiant skin, stronger hair, and healthier nails.",
     image: productPowder,
-    price: "R$ 129,90",
-    oldPrice: "R$ 219,90",
+    price: "$34.99",
+    oldPrice: "$59.99",
   },
   {
     name: "FemVital Gummies",
-    description: "Vitaminas em gomas deliciosas para cabelo, pele e unhas. Suporte diário prático e gostoso.",
+    description: "Delicious daily gummies for hair, skin, and nails. Easy, tasty, and effective wellness support.",
     image: productGummies,
-    price: "R$ 99,90",
-    oldPrice: "R$ 169,90",
+    price: "$29.99",
+    oldPrice: "$49.99",
   },
   {
     name: "FemVital Drops",
-    description: "Gotas de ação rápida para alívio do estresse, clareza mental e bem-estar emocional.",
+    description: "Fast-acting drops designed to relieve stress, sharpen mental clarity, and boost emotional well-being.",
     image: productDrops,
-    price: "R$ 119,90",
-    oldPrice: "R$ 199,90",
+    price: "$32.99",
+    oldPrice: "$54.99",
   },
 ];
 
 const ProductsSection = () => {
   return (
-    <section id="produtos" className="py-20 bg-gradient-soft">
+    <section id="products" className="py-20 bg-gradient-soft">
       <div className="container mx-auto px-6">
         <div className="text-center mb-14">
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-3">
-            Nossos Produtos
+            Our Products
           </h2>
           <p className="text-muted-foreground max-w-md mx-auto">
-            Desenvolvidos com ingredientes naturais clinicamente estudados para
-            a mulher moderna.
+            Formulated with clinically studied natural ingredients for the modern woman.
           </p>
         </div>
 
@@ -76,7 +75,7 @@ const ProductsSection = () => {
                   <span className="text-sm text-muted-foreground line-through">{product.oldPrice}</span>
                 </div>
                 <Button variant="hero" className="w-full mt-2">
-                  Comprar
+                  Shop Now
                 </Button>
               </div>
             </div>

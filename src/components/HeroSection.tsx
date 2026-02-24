@@ -12,27 +12,26 @@ const HeroSection = () => {
               {[...Array(5)].map((_, i) => (
                 <Star key={i} className="w-4 h-4 fill-accent text-accent" />
               ))}
-              <span className="text-sm text-muted-foreground ml-2">412 avaliações</span>
+              <span className="text-sm text-muted-foreground ml-2">412 reviews</span>
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight text-foreground">
-              Redescubra Sua{" "}
-              <span className="text-gradient-hero">Vitalidade</span> e Brilhe
-              Todos os Dias.
+              Reclaim Your{" "}
+              <span className="text-gradient-hero">Radiance</span> and Thrive
+              Every Day.
             </h1>
 
             <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-              Suplementos premium desenvolvidos especialmente para a saúde
-              feminina. Energia, beleza e equilíbrio hormonal com até 40% de
-              desconto.
+              Premium supplements crafted exclusively for women's health.
+              Energy, beauty, and hormonal balance — now up to 40% off.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <Button variant="hero" size="lg" className="text-base px-10 py-6">
-                Comprar Agora
+                Shop Now
               </Button>
               <Button variant="outline" size="lg" className="text-base px-10 py-6">
-                Saiba Mais
+                Learn More
               </Button>
             </div>
           </div>
@@ -41,7 +40,7 @@ const HeroSection = () => {
             <div className="rounded-2xl overflow-hidden shadow-card">
               <img
                 src={heroImage}
-                alt="Coleção de suplementos FemVital para saúde feminina"
+                alt="FemVital women's health supplement collection"
                 className="w-full h-auto object-cover"
                 loading="eager"
               />
