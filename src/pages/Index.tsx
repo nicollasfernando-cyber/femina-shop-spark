@@ -5,6 +5,7 @@ import BenefitsSection from "@/components/BenefitsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import CTASection from "@/components/CTASection";
 import FooterSection from "@/components/FooterSection";
+import LeadPopup from "@/components/LeadPopup";
 
 const Index = () => {
   return (
@@ -17,6 +18,7 @@ const Index = () => {
       <TestimonialsSection />
       <CTASection />
       <FooterSection />
+      <LeadPopup />
     </div>
   );
 };
