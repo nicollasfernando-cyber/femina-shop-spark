@@ -11,6 +11,7 @@ const products = [
     image: productCapsules,
     price: "$39.99",
     oldPrice: "$69.99",
+    checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208286567:1",
   },
   {
     name: "FemVital Collagen Powder",
@@ -18,6 +19,7 @@ const products = [
     image: productPowder,
     price: "$34.99",
     oldPrice: "$59.99",
+    checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208287022:1",
   },
   {
     name: "FemVital Gummies",
@@ -25,6 +27,7 @@ const products = [
     image: productGummies,
     price: "$29.99",
     oldPrice: "$49.99",
+    checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208287018:1",
   },
   {
     name: "FemVital Drops",
@@ -32,6 +35,7 @@ const products = [
     image: productDrops,
     price: "$32.99",
     oldPrice: "$54.99",
+    checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208287091:1",
   },
 ];
 
@@ -70,9 +74,11 @@ const ProductsSection = () => {
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   {product.description}
                 </p>
-                <Button variant="hero" className="w-full mt-2">
-                  Shop Now
-                </Button>
+                <a href={product.checkoutUrl} target="_blank" rel="noopener noreferrer">
+                  <Button variant="hero" className="w-full mt-2">
+                    Shop Now
+                  </Button>
+                </a>
               </div>
             </div>
           ))}
