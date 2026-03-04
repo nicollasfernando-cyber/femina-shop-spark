@@ -16,11 +16,12 @@ const FooterSection = () => {
             </div>
           </div>
           <div className="flex flex-wrap gap-6 text-sm">
-            <a href="/terms-of-service" className="text-muted hover:text-accent transition-colors">Terms of Service</a>
             <a href="/privacy-policy" className="text-muted hover:text-accent transition-colors">Privacy Policy</a>
-            <a href="/contact-us" className="text-muted hover:text-accent transition-colors">Contact Us</a>
-            <a href="/shipping-policy" className="text-muted hover:text-accent transition-colors">Shipping</a>
+            <a href="/terms-of-service" className="text-muted hover:text-accent transition-colors">Terms of Service</a>
+            <a href="/shipping-policy" className="text-muted hover:text-accent transition-colors">Shipping Policy</a>
             <a href="/refund-policy" className="text-muted hover:text-accent transition-colors">Refund Policy</a>
+            <a href="/contact-us" className="text-muted hover:text-accent transition-colors">Contact Us</a>
+            <a href="/about-us" className="text-muted hover:text-accent transition-colors">About Us</a>
           </div>
         </div>
         <div className="mt-8 pt-6 border-t border-muted/20 text-center">
