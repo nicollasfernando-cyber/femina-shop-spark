@@ -7,6 +7,13 @@ const FooterSection = () => {
             <span className="font-serif text-2xl font-bold text-primary-foreground">
               FEM<span className="text-accent">VITAL</span>
             </span>
+            <div className="mt-3 text-sm text-muted space-y-0.5">
+              <p>FemVital Health</p>
+              <p>1412 Broadway, 21st Floor</p>
+              <p>New York, NY 10018</p>
+              <p>United States</p>
+              <p><a href="mailto:support@femvitalhealth.online" className="hover:text-accent transition-colors">support@femvitalhealth.online</a></p>
+            </div>
           </div>
           <div className="flex flex-wrap gap-6 text-sm">
             <a href="/terms-of-service" className="text-muted hover:text-accent transition-colors">Terms of Service</a>
