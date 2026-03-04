@@ -27,9 +27,11 @@ const CTASection = () => {
               and restore hormonal balance — giving you the vitality you need to 
               conquer every aspect of your life.
             </p>
-            <Button variant="hero" size="lg" className="text-base px-10 py-6">
-              Shop Now
-            </Button>
+            <a href="#products">
+              <Button variant="hero" size="lg" className="text-base px-10 py-6">
+                Shop Now
+              </Button>
+            </a>
           </div>
         </div>
       </div>
