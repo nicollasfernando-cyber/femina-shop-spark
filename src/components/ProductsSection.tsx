@@ -70,10 +70,6 @@ const ProductsSection = () => {
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   {product.description}
                 </p>
-                <div className="flex items-center gap-2">
-                  <span className="text-lg font-bold text-primary">{product.price}</span>
-                  <span className="text-sm text-muted-foreground line-through">{product.oldPrice}</span>
-                </div>
                 <Button variant="hero" className="w-full mt-2">
                   Shop Now
                 </Button>
