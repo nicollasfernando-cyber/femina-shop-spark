@@ -9,9 +9,9 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in-up">
             <div className="flex items-center gap-1">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-4 h-4 fill-accent text-accent" />
-              ))}
+              {[...Array(5)].map((_, i) =>
+              <Star key={i} className="w-4 h-4 fill-accent text-accent" />
+              )}
               <span className="text-sm text-muted-foreground ml-2">412 reviews</span>
             </div>
 
@@ -39,17 +39,17 @@ const HeroSection = () => {
           <div className="relative animate-fade-in" style={{ animationDelay: "0.3s" }}>
             <div className="rounded-2xl overflow-hidden shadow-card">
               <img
-                src={heroImage}
+
                 alt="FemVital women's health supplement collection"
                 className="w-full h-auto object-cover"
-                loading="eager"
-              />
+                loading="eager" src="/lovable-uploads/e4c5ea1b-1169-4e18-8096-c2e98fe722d7.png" />
+              
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
