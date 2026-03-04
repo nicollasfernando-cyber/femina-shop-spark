@@ -11,7 +11,8 @@ const FooterSection = () => {
           <div className="flex flex-wrap gap-6 text-sm">
             <a href="/terms-of-service" className="text-muted hover:text-accent transition-colors">Terms of Service</a>
             <a href="/privacy-policy" className="text-muted hover:text-accent transition-colors">Privacy Policy</a>
-            {["Contact Us", "Shipping", "Refund Policy"].map(
+            <a href="/contact-us" className="text-muted hover:text-accent transition-colors">Contact Us</a>
+            {["Shipping", "Refund Policy"].map(
               (link) => (
                 <a
                   key={link}
