@@ -27,7 +27,57 @@ const LeadPopup = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!firstName.trim() || !email.trim()) return;
+
+    const trimmedName = firstName.trim();
+    const trimmedEmail = email.trim();
+    const phoneDigits = phone.replace(/\D/g, "");
+
+    if (trimmedName.length < 2) return;
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(trimmedEmail)) return;
+    if (phoneDigits.length !== 10) return;
+    if (!smsConsent) return;
+
+    const formattedPhone = `+1${phoneDigits}`;
+
+    // Submit to ActiveCampaign via hidden iframe
+    const iframeName = "ac_submit_iframe";
+    let iframe = document.querySelector<HTMLIFrameElement>(`iframe[name="${iframeName}"]`);
+    if (!iframe) {
+      iframe = document.createElement("iframe");
+      iframe.name = iframeName;
+      iframe.style.display = "none";
+      document.body.appendChild(iframe);
+    }
+
+    const form = document.createElement("form");
+    form.method = "POST";
+    form.action = "https://grupohm.activehosted.com/proc.php";
+    form.target = iframeName;
+    form.style.display = "none";
+
+    const fields: Record<string, string> = {
+      u: "1",
+      f: "1",
+      or: "bd95184d-cefb-44b6-b74e-4a53fe012399",
+      act: "sub",
+      v: "2",
+      firstname: trimmedName,
+      email: trimmedEmail,
+      phone: formattedPhone,
+    };
+
+    Object.entries(fields).forEach(([key, value]) => {
+      const input = document.createElement("input");
+      input.type = "hidden";
+      input.name = key;
+      input.value = value;
+      form.appendChild(input);
+    });
+
+    document.body.appendChild(form);
+    form.submit();
+    form.remove();
+
     setSubmitted(true);
     setTimeout(() => setOpen(false), 2500);
   };
