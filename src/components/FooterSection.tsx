@@ -18,7 +18,7 @@ const FooterSection = () => {
         </div>
         <div className="mt-8 pt-6 border-t border-muted/20 text-center">
           <p className="text-sm text-muted">
-            Copyright 2025 by FemVital Health. All rights reserved.
+            Copyright 2026 by FemVital Health. All rights reserved.
           </p>
         </div>
       </div>
