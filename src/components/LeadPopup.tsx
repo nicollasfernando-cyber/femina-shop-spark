@@ -6,8 +6,6 @@ import { Label } from "@/components/ui/label";
 import { Checkbox } from "@/components/ui/checkbox";
 import { ArrowRight, Sparkles } from "lucide-react";
 
-const POPUP_KEY = "femvital_popup_shown";
-
 const LeadPopup = () => {
   const [open, setOpen] = useState(false);
   const [firstName, setFirstName] = useState("");
@@ -17,16 +15,12 @@ const LeadPopup = () => {
   const [submitted, setSubmitted] = useState(false);
 
   useEffect(() => {
-    const alreadyShown = localStorage.getItem(POPUP_KEY);
-    if (!alreadyShown) {
-      const timer = setTimeout(() => setOpen(true), 3000);
-      return () => clearTimeout(timer);
-    }
+    const timer = setTimeout(() => setOpen(true), 3000);
+    return () => clearTimeout(timer);
   }, []);
 
   const handleClose = (value: boolean) => {
     if (!value) {
-      localStorage.setItem(POPUP_KEY, "true");
       setOpen(false);
     }
   };
@@ -34,7 +28,6 @@ const LeadPopup = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!firstName.trim() || !email.trim()) return;
-    localStorage.setItem(POPUP_KEY, "true");
     setSubmitted(true);
     setTimeout(() => setOpen(false), 2500);
   };
