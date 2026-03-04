@@ -196,9 +196,9 @@ const LeadPopup = () => {
             </Button>
 
             <div className="flex items-center justify-center gap-3 text-xs text-muted-foreground pt-1">
-              <a href="#" className="hover:text-foreground transition-colors">Privacy Policy</a>
+              <a href="/privacy-policy" className="hover:text-foreground transition-colors">Privacy Policy</a>
               <span className="text-border">|</span>
-              <a href="#" className="hover:text-foreground transition-colors">Terms of Service</a>
+              <a href="/terms-of-service" className="hover:text-foreground transition-colors">Terms of Service</a>
             </div>
           </form>
         )}
