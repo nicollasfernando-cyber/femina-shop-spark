@@ -63,7 +63,7 @@ const LeadPopup = () => {
       v: "2",
       firstname: trimmedName,
       email: trimmedEmail,
-      phone: formattedPhone,
+      phone: formattedPhone
     };
 
     Object.entries(fields).forEach(([key, value]) => {
@@ -101,27 +101,27 @@ const LeadPopup = () => {
           </DialogHeader>
         </div>
 
-        {submitted ? (
-          <div className="px-6 py-10 text-center space-y-3">
+        {submitted ?
+        <div className="px-6 py-10 text-center space-y-3">
             <Sparkles className="w-10 h-10 text-accent mx-auto" />
             <p className="text-xl font-serif font-bold text-foreground">Welcome to FemVital!</p>
             <p className="text-sm text-muted-foreground">Check your email for your 15% discount code.</p>
-          </div>
-        ) : (
-          <form onSubmit={handleSubmit} className="px-6 py-6 space-y-4">
+          </div> :
+
+        <form onSubmit={handleSubmit} className="px-6 py-6 space-y-4">
             <div className="space-y-1.5">
               <Label htmlFor="popup-name" className="text-sm font-semibold">
                 First Name <span className="text-destructive">*</span>
               </Label>
               <Input
-                id="popup-name"
-                placeholder="Enter your first name"
-                value={firstName}
-                onChange={(e) => setFirstName(e.target.value)}
-                maxLength={100}
-                required
-                className="h-12 rounded-lg"
-              />
+              id="popup-name"
+              placeholder="Enter your first name"
+              value={firstName}
+              onChange={(e) => setFirstName(e.target.value)}
+              maxLength={100}
+              required
+              className="h-12 rounded-lg" />
+            
             </div>
 
             <div className="space-y-1.5">
@@ -129,15 +129,15 @@ const LeadPopup = () => {
                 Email <span className="text-destructive">*</span>
               </Label>
               <Input
-                id="popup-email"
-                type="email"
-                placeholder="Enter your email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                maxLength={255}
-                required
-                className="h-12 rounded-lg"
-              />
+              id="popup-email"
+              type="email"
+              placeholder="Enter your email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              maxLength={255}
+              required
+              className="h-12 rounded-lg" />
+            
             </div>
 
             <div className="space-y-1.5">
@@ -149,14 +149,14 @@ const LeadPopup = () => {
                   +1
                 </div>
                 <Input
-                  id="popup-phone"
-                  type="tel"
-                  placeholder="(555) 123-4567"
-                  value={phone}
-                  onChange={(e) => setPhone(e.target.value)}
-                  maxLength={20}
-                  className="h-12 rounded-lg"
-                />
+                id="popup-phone"
+                type="tel"
+                placeholder="(555) 123-4567"
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+                maxLength={20}
+                className="h-12 rounded-lg" />
+              
               </div>
             </div>
 
@@ -164,18 +164,18 @@ const LeadPopup = () => {
             <div className="bg-muted/50 rounded-lg p-4 space-y-3">
               <div className="flex items-start gap-3">
                 <Checkbox
-                  id="sms-consent"
-                  checked={smsConsent}
-                  onCheckedChange={(v) => setSmsConsent(v === true)}
-                  className="mt-0.5"
-                />
+                id="sms-consent"
+                checked={smsConsent}
+                onCheckedChange={(v) => setSmsConsent(v === true)}
+                className="mt-0.5" />
+              
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-wide text-foreground mb-1">
                     💎 SMS Marketing Consent
                   </p>
                   <p className="text-xs text-muted-foreground leading-relaxed">
                     By checking this box, I agree to receive recurring promotional and personalized marketing text messages
-                    (e.g., cart reminders, exclusive offers) from <strong>FemVital</strong> at the cell phone number used
+                    (e.g., cart reminders, exclusive offers) from <strong>FemVital Health  </strong> at the cell phone number used
                     when signing up. Consent is not a condition of any purchase.
                   </p>
                 </div>
@@ -201,10 +201,10 @@ const LeadPopup = () => {
               <a href="/terms-of-service" className="hover:text-foreground transition-colors">Terms of Service</a>
             </div>
           </form>
-        )}
+        }
       </DialogContent>
-    </Dialog>
-  );
+    </Dialog>);
+
 };
 
 export default LeadPopup;
