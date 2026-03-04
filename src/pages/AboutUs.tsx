@@ -28,6 +28,7 @@ const AboutUs = () => {
           <p>1412 Broadway, 21st Floor</p>
           <p>New York, NY 10018</p>
           <p>United States</p>
+          <p><a href="mailto:support@femvitalhealth.online" className="hover:text-foreground transition-colors">support@femvitalhealth.online</a></p>
         </div>
       </div>
     </div>
