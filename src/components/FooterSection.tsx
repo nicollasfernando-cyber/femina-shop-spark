@@ -13,17 +13,7 @@ const FooterSection = () => {
             <a href="/privacy-policy" className="text-muted hover:text-accent transition-colors">Privacy Policy</a>
             <a href="/contact-us" className="text-muted hover:text-accent transition-colors">Contact Us</a>
             <a href="/shipping-policy" className="text-muted hover:text-accent transition-colors">Shipping</a>
-            {["Refund Policy"].map(
-              (link) => (
-                <a
-                  key={link}
-                  href="#"
-                  className="text-muted hover:text-accent transition-colors"
-                >
-                  {link}
-                </a>
-              )
-            )}
+            <a href="/refund-policy" className="text-muted hover:text-accent transition-colors">Refund Policy</a>
           </div>
         </div>
         <div className="mt-8 pt-6 border-t border-muted/20 text-center">
