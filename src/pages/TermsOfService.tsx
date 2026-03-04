@@ -5,7 +5,7 @@ const TermsOfService = () => {
         <h1 className="font-serif text-4xl font-bold text-foreground mb-8">Terms of Service</h1>
 
         <p className="text-muted-foreground mb-6">
-          Please read these Terms of Service ("Terms") carefully before using https://mindzenhealth.online (the "Site") operated by FemVital ("we," "our," or "us").
+          Please read these Terms of Service ("Terms") carefully before using https://femvitalhealth.online/ (the "Site") operated by FemVital ("we," "our," or "us").
         </p>
         <p className="text-muted-foreground mb-10">
           By accessing or using the Site, you agree to be bound by these Terms. If you do not agree, do not use the Site.
@@ -63,7 +63,7 @@ const TermsOfService = () => {
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">SECTION 7 – PERSONAL INFORMATION</h2>
         <p className="text-muted-foreground mb-6">
-          Your submission of personal information is governed by our Privacy Policy at https://mindzenhealth.online/privacy-policy.
+          Your submission of personal information is governed by our Privacy Policy at https://femvitalhealth.online/privacy-policy.
         </p>
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">SECTION 8 – SMS/TEXT PROGRAM TERMS</h2>
