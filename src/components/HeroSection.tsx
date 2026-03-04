@@ -27,12 +27,16 @@ const HeroSection = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
-              <Button variant="hero" size="lg" className="text-base px-10 py-6">
-                Shop Now
-              </Button>
-              <Button variant="outline" size="lg" className="text-base px-10 py-6">
-                Learn More
-              </Button>
+              <a href="#products">
+                <Button variant="hero" size="lg" className="text-base px-10 py-6">
+                  Shop Now
+                </Button>
+              </a>
+              <a href="#products">
+                <Button variant="outline" size="lg" className="text-base px-10 py-6">
+                  Learn More
+                </Button>
+              </a>
             </div>
           </div>
 
