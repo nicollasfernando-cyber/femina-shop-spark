@@ -35,7 +35,7 @@ const products = [
     image: productDrops,
     price: "$32.99",
     oldPrice: "$54.99",
-    checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208287091:1",
+    checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208743505:1",
   },
 ];
 
