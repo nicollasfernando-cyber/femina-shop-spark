@@ -27,7 +27,7 @@ const products = [
     image: productGummies,
     price: "$29.99",
     oldPrice: "$49.99",
-    checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208287018:1",
+    checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208739130:1",
   },
   {
     name: "Velara Drops",
