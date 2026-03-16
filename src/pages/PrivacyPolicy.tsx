@@ -5,7 +5,7 @@ const PrivacyPolicy = () => {
         <h1 className="font-serif text-4xl font-bold text-foreground mb-8">Privacy Policy</h1>
 
         <p className="text-muted-foreground mb-4">
-          Thank you for visiting https://velarahealth.com (the "Site") owned and operated by Velara Health ("we," "our," or "us"). This Privacy Policy explains how we collect, use, and protect your personal information when you visit our Site or use our services.
+          Thank you for visiting https://velarahealth.online (the "Site") owned and operated by Velara Health ("we," "our," or "us"). This Privacy Policy explains how we collect, use, and protect your personal information when you visit our Site or use our services.
         </p>
         <p className="text-muted-foreground mb-10">
           By using this Site, you consent to the terms of this Privacy Policy. We may update this policy from time to time, and any changes will be posted on this page with an updated effective date.
