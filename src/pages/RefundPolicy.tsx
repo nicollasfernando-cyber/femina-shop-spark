@@ -56,7 +56,7 @@ const RefundPolicy = () => {
           If approved, your refund will be processed to your original payment method within 10 business days. Your bank may take additional time to post the refund.
         </p>
         <p className="text-muted-foreground mb-6">
-          If more than 15 business days have passed since approval, contact us at support@velarahealth.com.
+          If more than 15 business days have passed since approval, contact us at support@velarahealth.online.
         </p>
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">CONTACT US</h2>
