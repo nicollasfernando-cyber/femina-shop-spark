@@ -15,7 +15,7 @@ const RefundPolicy = () => {
           <li>You must have receipt or proof of purchase</li>
         </ul>
         <p className="text-muted-foreground mb-4">
-          To start a return, contact us at support@velarahealth.com with your order number.
+          To start a return, contact us at support@velarahealth.online with your order number.
         </p>
         <p className="text-muted-foreground mb-4">
           If your return is accepted, we will provide instructions on how and where to send your package. Customers are responsible for return shipping costs.
