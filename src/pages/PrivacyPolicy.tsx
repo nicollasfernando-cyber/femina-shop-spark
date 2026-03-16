@@ -111,7 +111,7 @@ const PrivacyPolicy = () => {
           <li>Right to Non-Discrimination: Equal service regardless of privacy choices</li>
         </ul>
         <p className="text-muted-foreground mb-6">
-          To exercise these rights, contact us at support@velarahealth.com. We do not sell personal information as defined by the CCPA.
+          To exercise these rights, contact us at support@velarahealth.online. We do not sell personal information as defined by the CCPA.
         </p>
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">8. CHILDREN'S PRIVACY</h2>
