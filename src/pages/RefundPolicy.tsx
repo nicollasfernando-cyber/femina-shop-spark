@@ -40,7 +40,7 @@ const RefundPolicy = () => {
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">DAMAGES AND DEFECTS</h2>
         <p className="text-muted-foreground mb-6">
-          Please inspect your order upon delivery. If you receive a damaged, defective, or incorrect item, contact us immediately at support@velarahealth.com so we can resolve the issue.
+          Please inspect your order upon delivery. If you receive a damaged, defective, or incorrect item, contact us immediately at support@velarahealth.online so we can resolve the issue.
         </p>
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">EXCHANGES</h2>
