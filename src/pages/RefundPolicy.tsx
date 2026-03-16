@@ -65,7 +65,7 @@ const RefundPolicy = () => {
           <p>500 Fifth Avenue, Suite 1230</p>
           <p>New York, NY 10110</p>
           <p>United States</p>
-          <p>Email: support@velarahealth.com</p>
+          <p>Email: support@velarahealth.online</p>
           <p>Phone: 1 (855) 832-5274</p>
         </div>
       </div>

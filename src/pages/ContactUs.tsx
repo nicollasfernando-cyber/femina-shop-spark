@@ -6,7 +6,7 @@ const ContactUs = () => {
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">CUSTOMER SUPPORT</h2>
         <div className="text-muted-foreground mb-6 space-y-1">
-          <p>Email: support@velarahealth.com</p>
+          <p>Email: support@velarahealth.online</p>
           <p>Phone: 1 (855) 832-5274</p>
           <p>Hours: Monday – Friday, 9am – 5pm EST</p>
         </div>
