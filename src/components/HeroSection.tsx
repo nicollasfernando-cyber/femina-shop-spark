@@ -46,7 +46,7 @@ const HeroSection = () => {
 
                 alt="Velara women's wellness supplement collection"
                 className="w-full h-auto object-cover"
-                loading="eager" src="/lovable-uploads/e4c5ea1b-1169-4e18-8096-c2e98fe722d7.png" />
+                loading="eager" src={heroImage} />
               
             </div>
           </div>
