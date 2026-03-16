@@ -104,7 +104,7 @@ const LeadPopup = () => {
         {submitted ?
         <div className="px-6 py-10 text-center space-y-3">
             <Sparkles className="w-10 h-10 text-accent mx-auto" />
-            <p className="text-xl font-serif font-bold text-foreground">Welcome to FemVital!</p>
+            <p className="text-xl font-serif font-bold text-foreground">Welcome to Velara!</p>
             <p className="text-sm text-muted-foreground">Check your email for your 15% discount code.</p>
           </div> :
 
@@ -175,7 +175,7 @@ const LeadPopup = () => {
                   </p>
                   <p className="text-xs text-muted-foreground leading-relaxed">
                     By checking this box, I agree to receive recurring promotional and personalized marketing text messages
-                    (e.g., cart reminders, exclusive offers) from <strong>FemVital Health  </strong> at the cell phone number used
+                    (e.g., cart reminders, exclusive offers) from <strong>Velara Health</strong> at the cell phone number used
                     when signing up. Consent is not a condition of any purchase.
                   </p>
                 </div>

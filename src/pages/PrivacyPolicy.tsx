@@ -5,7 +5,7 @@ const PrivacyPolicy = () => {
         <h1 className="font-serif text-4xl font-bold text-foreground mb-8">Privacy Policy</h1>
 
         <p className="text-muted-foreground mb-4">
-          Thank you for visiting https://femvitalhealth.online (the "Site") owned and operated by FemVital ("we," "our," or "us"). This Privacy Policy explains how we collect, use, and protect your personal information when you visit our Site or use our services.
+          Thank you for visiting https://velarahealth.com (the "Site") owned and operated by Velara Health ("we," "our," or "us"). This Privacy Policy explains how we collect, use, and protect your personal information when you visit our Site or use our services.
         </p>
         <p className="text-muted-foreground mb-10">
           By using this Site, you consent to the terms of this Privacy Policy. We may update this policy from time to time, and any changes will be posted on this page with an updated effective date.
@@ -54,7 +54,7 @@ const PrivacyPolicy = () => {
         </ul>
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">3. SMS/TEXT MESSAGE PRIVACY</h2>
-        <p className="text-muted-foreground mb-2">When you opt-in to receive SMS messages from FemVital:</p>
+        <p className="text-muted-foreground mb-2">When you opt-in to receive SMS messages from Velara Health:</p>
         <ul className="list-disc list-inside text-muted-foreground mb-4 space-y-1 pl-4">
           <li>We collect your mobile phone number</li>
           <li>We use your number to send marketing messages, order updates, and promotional offers</li>
@@ -111,7 +111,7 @@ const PrivacyPolicy = () => {
           <li>Right to Non-Discrimination: Equal service regardless of privacy choices</li>
         </ul>
         <p className="text-muted-foreground mb-6">
-          To exercise these rights, contact us at support@femvitalhealth.online. We do not sell personal information as defined by the CCPA.
+          To exercise these rights, contact us at support@velarahealth.com. We do not sell personal information as defined by the CCPA.
         </p>
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">8. CHILDREN'S PRIVACY</h2>
@@ -127,12 +127,12 @@ const PrivacyPolicy = () => {
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">10. CONTACT US</h2>
         <p className="text-muted-foreground mb-2">If you have questions about this Privacy Policy, contact us at:</p>
         <div className="text-muted-foreground mb-6 space-y-1">
-          <p>FemVital</p>
-          <p>1412 Broadway 21st Floor,</p>
-          <p>New York, NY 10018</p>
+          <p>Velara Health</p>
+          <p>500 Fifth Avenue, Suite 1230</p>
+          <p>New York, NY 10110</p>
           <p>United States</p>
-          <p>Email: support@femvitalhealth.online</p>
-          <p>Phone: ‪1 347 954 6786</p>
+          <p>Email: support@velarahealth.com</p>
+          <p>Phone: 1 (855) 832-5274</p>
         </div>
       </div>
     </div>

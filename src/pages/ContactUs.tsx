@@ -6,16 +6,16 @@ const ContactUs = () => {
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">CUSTOMER SUPPORT</h2>
         <div className="text-muted-foreground mb-6 space-y-1">
-          <p>Email: support@femvitalhealth.online</p>
-          <p>Phone: ‪1 347 954 6786</p>
+          <p>Email: support@velarahealth.com</p>
+          <p>Phone: 1 (855) 832-5274</p>
           <p>Hours: Monday – Friday, 9am – 5pm EST</p>
         </div>
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">MAILING ADDRESS</h2>
         <div className="text-muted-foreground mb-6 space-y-1">
-          <p>FemVital</p>
-          <p>1412 Broadway 21st Floor,</p>
-          <p>New York, NY 10018</p>
+          <p>Velara Health</p>
+          <p>500 Fifth Avenue, Suite 1230</p>
+          <p>New York, NY 10110</p>
           <p>United States</p>
         </div>
 

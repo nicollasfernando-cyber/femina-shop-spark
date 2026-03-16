@@ -9,7 +9,7 @@ const CTASection = () => {
           <div className="rounded-2xl overflow-hidden shadow-card">
             <img
               src={heroImage}
-              alt="FemVital Products"
+              alt="Velara Products"
               className="w-full h-auto object-cover"
               loading="lazy"
             />
@@ -17,11 +17,11 @@ const CTASection = () => {
           <div className="space-y-6">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground leading-tight">
               The ultimate solution for{" "}
-              <span className="text-gradient-hero">women's health</span> and
+              <span className="text-gradient-hero">women's wellness</span> and
               beauty.
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              <strong className="text-foreground">FEMVITAL</strong> is a premium Women's Health 
+              <strong className="text-foreground">VELARA</strong> is a premium Women's Wellness 
               Complex specifically engineered to support the needs of the modern woman. 
               Our formula works to optimize energy production, support beauty from within, 
               and restore hormonal balance — giving you the vitality you need to 

@@ -5,14 +5,14 @@ const FooterSection = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div>
             <span className="font-serif text-2xl font-bold text-primary-foreground">
-              FEM<span className="text-accent">VITAL</span>
+              VEL<span className="text-accent">ARA</span>
             </span>
             <div className="mt-3 text-sm text-muted space-y-0.5">
-              <p>FemVital Health</p>
-              <p>1412 Broadway, 21st Floor</p>
-              <p>New York, NY 10018</p>
+              <p>Velara Health</p>
+              <p>500 Fifth Avenue, Suite 1230</p>
+              <p>New York, NY 10110</p>
               <p>United States</p>
-              <p><a href="mailto:support@femvitalhealth.online" className="hover:text-accent transition-colors">support@femvitalhealth.online</a></p>
+              <p><a href="mailto:support@velarahealth.com" className="hover:text-accent transition-colors">support@velarahealth.com</a></p>
             </div>
           </div>
           <div className="flex flex-wrap gap-6 text-sm">
@@ -26,7 +26,7 @@ const FooterSection = () => {
         </div>
         <div className="mt-8 pt-6 border-t border-muted/20 text-center">
           <p className="text-sm text-muted">
-            Copyright 2026 by FemVital Health. All rights reserved.
+            Copyright 2026 by Velara Health. All rights reserved.
           </p>
         </div>
       </div>

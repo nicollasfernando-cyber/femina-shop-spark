@@ -33,7 +33,7 @@ const BenefitsSection = () => {
           <div className="w-full lg:w-5/12 flex justify-center">
             <img
               src={productBottle}
-              alt="FemVital Capsules"
+              alt="Velara Capsules"
               className="max-h-[500px] w-auto object-contain"
             />
           </div>

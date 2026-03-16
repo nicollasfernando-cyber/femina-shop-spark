@@ -5,7 +5,7 @@ const TermsOfService = () => {
         <h1 className="font-serif text-4xl font-bold text-foreground mb-8">Terms of Service</h1>
 
         <p className="text-muted-foreground mb-6">
-          Please read these Terms of Service ("Terms") carefully before using https://femvitalhealth.online/ (the "Site") operated by FemVital ("we," "our," or "us").
+          Please read these Terms of Service ("Terms") carefully before using https://velarahealth.com/ (the "Site") operated by Velara Health ("we," "our," or "us").
         </p>
         <p className="text-muted-foreground mb-10">
           By accessing or using the Site, you agree to be bound by these Terms. If you do not agree, do not use the Site.
@@ -63,12 +63,12 @@ const TermsOfService = () => {
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">SECTION 7 – PERSONAL INFORMATION</h2>
         <p className="text-muted-foreground mb-6">
-          Your submission of personal information is governed by our Privacy Policy at https://femvitalhealth.online/privacy-policy.
+          Your submission of personal information is governed by our Privacy Policy at https://velarahealth.com/privacy-policy.
         </p>
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">SECTION 8 – SMS/TEXT PROGRAM TERMS</h2>
         <p className="text-muted-foreground mb-4">
-          By signing up for the FemVital Text Program ("Program"), you agree to these terms and authorize FemVital to deliver promotional and other text messages to your designated mobile phone number, including via automated technology.
+          By signing up for the Velara Health Text Program ("Program"), you agree to these terms and authorize Velara Health to deliver promotional and other text messages to your designated mobile phone number, including via automated technology.
         </p>
 
         <h3 className="font-serif text-xl font-semibold text-foreground mt-6 mb-2">Program Description:</h3>
@@ -88,17 +88,17 @@ const TermsOfService = () => {
 
         <h3 className="font-serif text-xl font-semibold text-foreground mt-6 mb-2">Costs:</h3>
         <p className="text-muted-foreground mb-4">
-          FemVital does not charge for the Program. However, message and data rates may apply depending on your mobile carrier plan. Carriers are not liable for delayed or undelivered messages.
+          Velara Health does not charge for the Program. However, message and data rates may apply depending on your mobile carrier plan. Carriers are not liable for delayed or undelivered messages.
         </p>
 
         <h3 className="font-serif text-xl font-semibold text-foreground mt-6 mb-2">Opt-Out:</h3>
         <p className="text-muted-foreground mb-4">
-          You can unsubscribe at any time by replying STOP to any message or emailing support@femvitalhealth.online. After opting out, you will receive a confirmation message.
+          You can unsubscribe at any time by replying STOP to any message or emailing support@velarahealth.com. After opting out, you will receive a confirmation message.
         </p>
 
         <h3 className="font-serif text-xl font-semibold text-foreground mt-6 mb-2">Help:</h3>
         <p className="text-muted-foreground mb-4">
-          For help, reply HELP to any message or contact us at support@femvitalhealth.online or ‪1 347 954 6786.
+          For help, reply HELP to any message or contact us at support@velarahealth.com or 1 (855) 832-5274.
         </p>
 
         <h3 className="font-serif text-xl font-semibold text-foreground mt-6 mb-2">Supported Carriers:</h3>
@@ -124,7 +124,7 @@ const TermsOfService = () => {
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">SECTION 10 – LIMITATION OF LIABILITY</h2>
         <p className="text-muted-foreground mb-4">
-          In no event shall FemVital, our directors, officers, employees, or affiliates be liable for any indirect, incidental, special, or consequential damages arising from your use of the Site or products.
+          In no event shall Velara Health, our directors, officers, employees, or affiliates be liable for any indirect, incidental, special, or consequential damages arising from your use of the Site or products.
         </p>
         <p className="text-muted-foreground mb-6">
           Our liability shall not exceed the amount you paid for the product or service in question.
@@ -143,7 +143,7 @@ const TermsOfService = () => {
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">SECTION 12 – INDEMNIFICATION</h2>
         <p className="text-muted-foreground mb-6">
-          You agree to indemnify and hold harmless FemVital and our affiliates from any claims, damages, or expenses arising from your violation of these Terms or your use of the Site.
+          You agree to indemnify and hold harmless Velara Health and our affiliates from any claims, damages, or expenses arising from your violation of these Terms or your use of the Site.
         </p>
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">SECTION 13 – GOVERNING LAW</h2>
@@ -167,12 +167,12 @@ const TermsOfService = () => {
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">SECTION 16 – CONTACT INFORMATION</h2>
         <p className="text-muted-foreground mb-2">Questions about these Terms should be sent to:</p>
         <div className="text-muted-foreground mb-6 space-y-1">
-          <p>FemVital</p>
-          <p>1412 Broadway 21st Floor,</p>
-          <p>New York, NY 10018</p>
+          <p>Velara Health</p>
+          <p>500 Fifth Avenue, Suite 1230</p>
+          <p>New York, NY 10110</p>
           <p>United States</p>
-          <p>Email: support@femvitalhealth.online</p>
-          <p>Phone: ‪1 347 954 6786</p>
+          <p>Email: support@velarahealth.com</p>
+          <p>Phone: 1 (855) 832-5274</p>
         </div>
       </div>
     </div>

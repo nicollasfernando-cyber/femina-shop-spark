@@ -39,7 +39,7 @@ const ShippingPolicy = () => {
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">QUESTIONS</h2>
         <p className="text-muted-foreground mb-6">
-          For shipping questions, contact us at support@femvitalhealth.online.
+          For shipping questions, contact us at support@velarahealth.com.
         </p>
       </div>
     </div>
