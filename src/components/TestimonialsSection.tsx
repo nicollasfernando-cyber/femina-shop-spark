@@ -1,26 +1,26 @@
 import { Star } from "lucide-react";
-import testimonialSarah from "@/assets/testimonial-sarah.jpg";
-import testimonialJessica from "@/assets/testimonial-jessica.jpg";
-import testimonialEmily from "@/assets/testimonial-emily.jpg";
+import testimonialAmanda from "@/assets/testimonial-amanda.jpg";
+import testimonialRachel from "@/assets/testimonial-rachel.jpg";
+import testimonialDanielle from "@/assets/testimonial-danielle.jpg";
 
 const testimonials = [
   {
-    name: "Sarah M.",
-    location: "Austin, Texas",
-    photo: testimonialSarah,
-    text: "I was exhausted all the time, dragging myself through every day. After just 3 weeks on FemVital Capsules, my energy came roaring back. I feel like I'm in my 20s again! Every woman needs this in her routine.",
+    name: "Amanda L.",
+    location: "Portland, Oregon",
+    photo: testimonialAmanda,
+    text: "I was constantly drained and struggling to keep up with my daily routine. After just 3 weeks on Velara Capsules, my energy completely transformed. I feel vibrant and alive again! This has become an essential part of my wellness routine.",
   },
   {
-    name: "Jessica R.",
-    location: "Miami, Florida",
-    photo: testimonialJessica,
-    text: "The Collagen Powder completely transformed my skin. My friends noticed the difference before I even told them. My complexion is glowing, my nails stopped breaking, and my hair feels thicker. Best investment I've made in myself.",
+    name: "Rachel K.",
+    location: "Charlotte, North Carolina",
+    photo: testimonialRachel,
+    text: "The Collagen Powder has been a game-changer for my skin. My coworkers kept asking what I was doing differently. My complexion is radiant, my nails are stronger, and my hair has so much more volume. Absolutely worth every penny.",
   },
   {
-    name: "Emily T.",
-    location: "Denver, Colorado",
-    photo: testimonialEmily,
-    text: "The Gummies taste amazing and are so easy to take! I never forget my supplements anymore. My hair is growing faster and stronger, and the Drops have seriously helped me manage work stress. I'm a customer for life.",
+    name: "Danielle W.",
+    location: "San Diego, California",
+    photo: testimonialDanielle,
+    text: "The Gummies are delicious and so convenient! I actually look forward to taking my supplements now. My hair is growing faster than ever, and the Drops have been incredible for managing my daily stress. I'm a loyal customer for life.",
   },
 ];
 

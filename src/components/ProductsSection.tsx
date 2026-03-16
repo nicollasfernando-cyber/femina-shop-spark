@@ -6,7 +6,7 @@ import productDrops from "@/assets/product-drops.jpg";
 
 const products = [
   {
-    name: "FemVital Capsules",
+    name: "Velara Capsules",
     description: "A powerful blend to support healthy hormone levels and sustained energy throughout the day.",
     image: productCapsules,
     price: "$39.99",
@@ -14,7 +14,7 @@ const products = [
     checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208286567:1",
   },
   {
-    name: "FemVital Collagen Powder",
+    name: "Velara Collagen Powder",
     description: "Premium hydrolyzed collagen for radiant skin, stronger hair, and healthier nails.",
     image: productPowder,
     price: "$34.99",
@@ -22,7 +22,7 @@ const products = [
     checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208287022:1",
   },
   {
-    name: "FemVital Gummies",
+    name: "Velara Gummies",
     description: "Delicious daily gummies for hair, skin, and nails. Easy, tasty, and effective wellness support.",
     image: productGummies,
     price: "$29.99",
@@ -30,7 +30,7 @@ const products = [
     checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208287018:1",
   },
   {
-    name: "FemVital Drops",
+    name: "Velara Drops",
     description: "Fast-acting drops designed to relieve stress, sharpen mental clarity, and boost emotional well-being.",
     image: productDrops,
     price: "$32.99",

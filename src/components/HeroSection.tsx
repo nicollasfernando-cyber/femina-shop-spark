@@ -22,7 +22,7 @@ const HeroSection = () => {
             </h1>
 
             <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-              Premium supplements crafted exclusively for women's health.
+              Premium supplements crafted exclusively for women's wellness.
               Energy, beauty, and hormonal balance — now up to 40% off.
             </p>
 
@@ -44,7 +44,7 @@ const HeroSection = () => {
             <div className="rounded-2xl overflow-hidden shadow-card">
               <img
 
-                alt="FemVital women's health supplement collection"
+                alt="Velara women's wellness supplement collection"
                 className="w-full h-auto object-cover"
                 loading="eager" src="/lovable-uploads/e4c5ea1b-1169-4e18-8096-c2e98fe722d7.png" />
               
