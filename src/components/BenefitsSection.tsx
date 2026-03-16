@@ -1,5 +1,5 @@
 import { Sparkles, Heart, Leaf, Brain } from "lucide-react";
-import productBottle from "@/assets/product-capsules.jpg";
+import productBottle from "@/assets/product-capsules-nobg.png";
 
 const benefits = [
   {
