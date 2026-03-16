@@ -15,7 +15,7 @@ const RefundPolicy = () => {
           <li>You must have receipt or proof of purchase</li>
         </ul>
         <p className="text-muted-foreground mb-4">
-          To start a return, contact us at support@velarahealth.com with your order number.
+          To start a return, contact us at support@velarahealth.online with your order number.
         </p>
         <p className="text-muted-foreground mb-4">
           If your return is accepted, we will provide instructions on how and where to send your package. Customers are responsible for return shipping costs.
@@ -35,12 +35,12 @@ const RefundPolicy = () => {
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">SATISFACTION GUARANTEE</h2>
         <p className="text-muted-foreground mb-6">
-          If you are not satisfied with your purchase, contact us at support@velarahealth.com. We want you to be happy with your order and will work to find a solution.
+          If you are not satisfied with your purchase, contact us at support@velarahealth.online. We want you to be happy with your order and will work to find a solution.
         </p>
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">DAMAGES AND DEFECTS</h2>
         <p className="text-muted-foreground mb-6">
-          Please inspect your order upon delivery. If you receive a damaged, defective, or incorrect item, contact us immediately at support@velarahealth.com so we can resolve the issue.
+          Please inspect your order upon delivery. If you receive a damaged, defective, or incorrect item, contact us immediately at support@velarahealth.online so we can resolve the issue.
         </p>
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">EXCHANGES</h2>
@@ -56,7 +56,7 @@ const RefundPolicy = () => {
           If approved, your refund will be processed to your original payment method within 10 business days. Your bank may take additional time to post the refund.
         </p>
         <p className="text-muted-foreground mb-6">
-          If more than 15 business days have passed since approval, contact us at support@velarahealth.com.
+          If more than 15 business days have passed since approval, contact us at support@velarahealth.online.
         </p>
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">CONTACT US</h2>
@@ -65,7 +65,7 @@ const RefundPolicy = () => {
           <p>500 Fifth Avenue, Suite 1230</p>
           <p>New York, NY 10110</p>
           <p>United States</p>
-          <p>Email: support@velarahealth.com</p>
+          <p>Email: support@velarahealth.online</p>
           <p>Phone: 1 (855) 832-5274</p>
         </div>
       </div>

@@ -93,12 +93,12 @@ const TermsOfService = () => {
 
         <h3 className="font-serif text-xl font-semibold text-foreground mt-6 mb-2">Opt-Out:</h3>
         <p className="text-muted-foreground mb-4">
-          You can unsubscribe at any time by replying STOP to any message or emailing support@velarahealth.com. After opting out, you will receive a confirmation message.
+          You can unsubscribe at any time by replying STOP to any message or emailing support@velarahealth.online. After opting out, you will receive a confirmation message.
         </p>
 
         <h3 className="font-serif text-xl font-semibold text-foreground mt-6 mb-2">Help:</h3>
         <p className="text-muted-foreground mb-4">
-          For help, reply HELP to any message or contact us at support@velarahealth.com or 1 (855) 832-5274.
+          For help, reply HELP to any message or contact us at support@velarahealth.online or 1 (855) 832-5274.
         </p>
 
         <h3 className="font-serif text-xl font-semibold text-foreground mt-6 mb-2">Supported Carriers:</h3>
@@ -171,7 +171,7 @@ const TermsOfService = () => {
           <p>500 Fifth Avenue, Suite 1230</p>
           <p>New York, NY 10110</p>
           <p>United States</p>
-          <p>Email: support@velarahealth.com</p>
+          <p>Email: support@velarahealth.online</p>
           <p>Phone: 1 (855) 832-5274</p>
         </div>
       </div>

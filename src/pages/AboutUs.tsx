@@ -28,7 +28,7 @@ const AboutUs = () => {
           <p>500 Fifth Avenue, Suite 1230</p>
           <p>New York, NY 10110</p>
           <p>United States</p>
-          <p><a href="mailto:support@velarahealth.com" className="hover:text-foreground transition-colors">support@velarahealth.com</a></p>
+          <p><a href="mailto:support@velarahealth.online" className="hover:text-foreground transition-colors">support@velarahealth.online</a></p>
         </div>
       </div>
     </div>
