@@ -11,7 +11,7 @@ const products = [
     image: productCapsules,
     price: "$39.99",
     oldPrice: "$69.99",
-    checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208286567:1",
+    checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208743285:1",
   },
   {
     name: "Velara Collagen Powder",
@@ -19,7 +19,7 @@ const products = [
     image: productPowder,
     price: "$34.99",
     oldPrice: "$59.99",
-    checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208287022:1",
+    checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208743289:1",
   },
   {
     name: "Velara Gummies",
@@ -27,7 +27,7 @@ const products = [
     image: productGummies,
     price: "$29.99",
     oldPrice: "$49.99",
-    checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208287018:1",
+    checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208739130:1",
   },
   {
     name: "Velara Drops",
@@ -35,7 +35,7 @@ const products = [
     image: productDrops,
     price: "$32.99",
     oldPrice: "$54.99",
-    checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208287091:1",
+    checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208743505:1",
   },
 ];
 
