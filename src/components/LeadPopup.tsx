@@ -51,7 +51,7 @@ const LeadPopup = () => {
 
     const form = document.createElement("form");
     form.method = "POST";
-    form.action = "https://grupohm.activehosted.com/proc.php";
+    form.action = "https://contatoescalify19849.activehosted.com/proc.php";
     form.target = iframeName;
     form.style.display = "none";
 
