@@ -11,7 +11,7 @@ const products = [
     image: productCapsules,
     price: "$39.99",
     oldPrice: "$69.99",
-    checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208286567:1",
+    checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208743285:1",
   },
   {
     name: "Velara Collagen Powder",
