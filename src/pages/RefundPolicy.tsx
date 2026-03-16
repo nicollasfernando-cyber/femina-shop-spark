@@ -35,7 +35,7 @@ const RefundPolicy = () => {
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">SATISFACTION GUARANTEE</h2>
         <p className="text-muted-foreground mb-6">
-          If you are not satisfied with your purchase, contact us at support@velarahealth.com. We want you to be happy with your order and will work to find a solution.
+          If you are not satisfied with your purchase, contact us at support@velarahealth.online. We want you to be happy with your order and will work to find a solution.
         </p>
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">DAMAGES AND DEFECTS</h2>
