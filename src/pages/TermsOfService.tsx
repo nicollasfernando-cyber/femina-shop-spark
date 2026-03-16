@@ -93,7 +93,7 @@ const TermsOfService = () => {
 
         <h3 className="font-serif text-xl font-semibold text-foreground mt-6 mb-2">Opt-Out:</h3>
         <p className="text-muted-foreground mb-4">
-          You can unsubscribe at any time by replying STOP to any message or emailing support@velarahealth.com. After opting out, you will receive a confirmation message.
+          You can unsubscribe at any time by replying STOP to any message or emailing support@velarahealth.online. After opting out, you will receive a confirmation message.
         </p>
 
         <h3 className="font-serif text-xl font-semibold text-foreground mt-6 mb-2">Help:</h3>
