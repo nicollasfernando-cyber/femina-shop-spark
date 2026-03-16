@@ -19,7 +19,7 @@ const products = [
     image: productPowder,
     price: "$34.99",
     oldPrice: "$59.99",
-    checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208287022:1",
+    checkoutUrl: "https://mailxgroup.mycartpanda.com/checkout/208743289:1",
   },
   {
     name: "Velara Gummies",
