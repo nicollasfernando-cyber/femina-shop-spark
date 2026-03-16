@@ -63,7 +63,7 @@ const TermsOfService = () => {
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">SECTION 7 – PERSONAL INFORMATION</h2>
         <p className="text-muted-foreground mb-6">
-          Your submission of personal information is governed by our Privacy Policy at https://velarahealth.com/privacy-policy.
+          Your submission of personal information is governed by our Privacy Policy at https://velarahealth.online/privacy-policy.
         </p>
 
         <h2 className="font-serif text-2xl font-semibold text-foreground mt-10 mb-4">SECTION 8 – SMS/TEXT PROGRAM TERMS</h2>
