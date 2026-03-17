@@ -76,7 +76,8 @@ const LeadPopup = () => {
 
     document.body.appendChild(form);
     form.submit();
-    form.remove();
+    // Remove form after a delay to ensure submission completes
+    setTimeout(() => form.remove(), 3000);
 
     setSubmitted(true);
     setTimeout(() => setOpen(false), 2500);
