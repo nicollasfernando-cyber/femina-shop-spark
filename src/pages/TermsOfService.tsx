@@ -172,7 +172,7 @@ const TermsOfService = () => {
           <p>New York, NY 10110</p>
           <p>United States</p>
           <p>Email: support@velarahealth.online</p>
-          <p>Phone: 1 (855) 832-5274</p>
+          <p>Phone: 1 786 413 0651</p>
         </div>
       </div>
     </div>
