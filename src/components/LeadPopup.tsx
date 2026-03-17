@@ -13,6 +13,8 @@ const LeadPopup = () => {
   const [phone, setPhone] = useState("");
   const [smsConsent, setSmsConsent] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [errorMsg, setErrorMsg] = useState("");
 
   useEffect(() => {
     const timer = setTimeout(() => setOpen(true), 3000);
@@ -25,64 +27,59 @@ const LeadPopup = () => {
     }
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setErrorMsg("");
 
     const trimmedName = firstName.trim();
     const trimmedEmail = email.trim();
     const phoneDigits = phone.replace(/\D/g, "");
 
-    if (trimmedName.length < 2) return;
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(trimmedEmail)) return;
-    if (phoneDigits.length !== 10) return;
-    if (!smsConsent) return;
+    if (trimmedName.length < 2) { setErrorMsg("Please enter your first name (at least 2 characters)."); return; }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(trimmedEmail)) { setErrorMsg("Please enter a valid email address."); return; }
+    if (phoneDigits.length !== 10) { setErrorMsg("Please enter a valid 10-digit phone number."); return; }
+    if (!smsConsent) { setErrorMsg("Please accept SMS consent to continue."); return; }
 
     const formattedPhone = `+1${phoneDigits}`;
+    setSubmitting(true);
 
-    // Submit to ActiveCampaign via hidden iframe
-    const iframeName = "ac_submit_iframe";
-    let iframe = document.querySelector<HTMLIFrameElement>(`iframe[name="${iframeName}"]`);
-    if (!iframe) {
-      iframe = document.createElement("iframe");
-      iframe.name = iframeName;
-      iframe.style.display = "none";
-      document.body.appendChild(iframe);
+    try {
+      const params = new URLSearchParams({
+        u: "1",
+        f: "1",
+        or: "bd95184d-cefb-44b6-b74e-4a53fe012399",
+        act: "sub",
+        v: "2",
+        fullname: trimmedName,
+        firstname: trimmedName,
+        email: trimmedEmail,
+        phone: formattedPhone,
+        sms_consent: "on",
+        jsonp: "true"
+      });
+
+      const response = await fetch(
+        `https://contatoescalify19849.activehosted.com/proc.php?${params.toString()}`
+      );
+      const text = await response.text();
+
+      if (text.includes("_show_thank_you")) {
+        setSubmitted(true);
+        setTimeout(() => setOpen(false), 2500);
+      } else {
+        // Extract error message from ActiveCampaign response
+        const errorMatch = text.match(/_show_error\("[^"]*",\s*"([^"]*)"\)/);
+        if (errorMatch) {
+          setErrorMsg(errorMatch[1]);
+        } else {
+          setErrorMsg("Submission failed. Please check your information and try again.");
+        }
+      }
+    } catch {
+      setErrorMsg("Connection error. Please try again.");
+    } finally {
+      setSubmitting(false);
     }
-
-    const form = document.createElement("form");
-    form.method = "POST";
-    form.action = "https://contatoescalify19849.activehosted.com/proc.php";
-    form.target = iframeName;
-    form.style.display = "none";
-
-    const fields: Record<string, string> = {
-      u: "1",
-      f: "1",
-      or: "bd95184d-cefb-44b6-b74e-4a53fe012399",
-      act: "sub",
-      v: "2",
-      fullname: trimmedName,
-      firstname: trimmedName,
-      email: trimmedEmail,
-      phone: formattedPhone,
-      sms_consent: "on"
-    };
-
-    Object.entries(fields).forEach(([key, value]) => {
-      const input = document.createElement("input");
-      input.type = "hidden";
-      input.name = key;
-      input.value = value;
-      form.appendChild(input);
-    });
-
-    document.body.appendChild(form);
-    form.submit();
-    // Remove form after a delay to ensure submission completes
-    setTimeout(() => form.remove(), 3000);
-
-    setSubmitted(true);
-    setTimeout(() => setOpen(false), 2500);
   };
 
   return (
@@ -194,8 +191,14 @@ const LeadPopup = () => {
               </p>
             </div>
 
-            <Button variant="hero" type="submit" className="w-full h-14 text-base rounded-xl">
-              Unlock My 15% Discount <ArrowRight className="w-5 h-5 ml-1" />
+            {errorMsg && (
+              <div className="bg-destructive/10 border border-destructive/20 rounded-lg px-4 py-3 text-sm text-destructive text-center">
+                {errorMsg}
+              </div>
+            )}
+
+            <Button variant="hero" type="submit" disabled={submitting} className="w-full h-14 text-base rounded-xl">
+              {submitting ? "Submitting..." : <>Unlock My 15% Discount <ArrowRight className="w-5 h-5 ml-1" /></>}
             </Button>
 
             <div className="flex items-center justify-center gap-3 text-xs text-muted-foreground pt-1">
