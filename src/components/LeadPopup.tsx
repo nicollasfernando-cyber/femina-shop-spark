@@ -61,9 +61,11 @@ const LeadPopup = () => {
       or: "bd95184d-cefb-44b6-b74e-4a53fe012399",
       act: "sub",
       v: "2",
+      fullname: trimmedName,
       firstname: trimmedName,
       email: trimmedEmail,
-      phone: formattedPhone
+      phone: formattedPhone,
+      sms_consent: "on"
     };
 
     Object.entries(fields).forEach(([key, value]) => {
