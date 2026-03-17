@@ -98,7 +98,7 @@ const TermsOfService = () => {
 
         <h3 className="font-serif text-xl font-semibold text-foreground mt-6 mb-2">Help:</h3>
         <p className="text-muted-foreground mb-4">
-          For help, reply HELP to any message or contact us at support@velarahealth.online or 1 (855) 832-5274.
+          For help, reply HELP to any message or contact us at support@velarahealth.online or 1 786 413 0651.
         </p>
 
         <h3 className="font-serif text-xl font-semibold text-foreground mt-6 mb-2">Supported Carriers:</h3>
@@ -172,7 +172,7 @@ const TermsOfService = () => {
           <p>New York, NY 10110</p>
           <p>United States</p>
           <p>Email: support@velarahealth.online</p>
-          <p>Phone: 1 (855) 832-5274</p>
+          <p>Phone: 1 786 413 0651</p>
         </div>
       </div>
     </div>
