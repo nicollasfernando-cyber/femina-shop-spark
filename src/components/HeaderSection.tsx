@@ -17,7 +17,7 @@ const Navbar = () => {
             VEL<span className="text-primary">ARA</span>
           </span>
           <span className="text-xs text-muted-foreground tracking-widest uppercase hidden sm:inline">
-            Wellness
+            Health
           </span>
         </a>
         <div className="hidden md:flex items-center gap-8">
