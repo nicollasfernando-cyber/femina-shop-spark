@@ -13,6 +13,7 @@ const FooterSection = () => {
               <p>New York, NY 10110</p>
               <p>United States</p>
               <p><a href="mailto:support@velarahealth.online" className="hover:text-accent transition-colors">support@velarahealth.online</a></p>
+              <p>Phone: 1 786 413 0651</p>
             </div>
           </div>
           <div className="flex flex-wrap gap-6 text-sm">
